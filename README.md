@@ -102,6 +102,8 @@ python facefusion.py job-submit job1
 python facefusion.py job-run job1
 ```
 ------------------------------------------------------------------------------
+![Image](https://github.com/user-attachments/assets/99cf3da7-3e92-45ee-b87d-17f59441d703)
+------------------------------------------------------------------------------
 ```
 python facefusion.py job-create job2
 ```
