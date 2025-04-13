@@ -9,6 +9,7 @@
 ![Image](https://github.com/user-attachments/assets/971b2e9d-eba3-46dd-ba33-1ca95c9f1bdc)
 ----------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
+## ✅✅✅✅✅ GUI arayüzü ile:✅✅✅✅✅
 
 🛠️ FaceFusion Kurulum ve Başlatma Süreci (Windows için)
 Aşağıdaki adımları takip ederek FaceFusion'u kolayca kurabilir ve kullanmaya başlayabilirsiniz.
@@ -86,6 +87,8 @@ Sorun yaşarsanız: --help parametresi ile komut listesini görüntüleyebilirsi
 python facefusion.py --help
 ```
 ---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+## ✅✅✅✅✅ Komut istemcisi üzerinden job ID kullanarak:✅✅✅✅✅
 
 (****** result ismini ve job ismini değiştirmeyi unutma(örn: job2)) ve *** png veya jpg tür karıştırma
 
