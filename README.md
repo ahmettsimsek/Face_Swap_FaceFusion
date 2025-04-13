@@ -17,8 +17,7 @@ Python 3.10
 Git (opsiyonel ama önerilir)
 
 ### ✅ 2. Projeyi Klonla
-```
-python
+```python
 cd %USERPROFILE%\Desktop
 ```
 ```
