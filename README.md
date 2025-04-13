@@ -18,6 +18,7 @@ Git (opsiyonel ama önerilir)
 
 ### ✅ 2. Projeyi Klonla
 ```
+python
 cd %USERPROFILE%\Desktop
 ```
 ```
