@@ -1,4 +1,7 @@
 # Face_Swap_FaceFusion
+
+![Image](https://github.com/user-attachments/assets/12aa45ee-a053-4145-b4cf-05f4b88a8888)
+
 🛠️ FaceFusion Kurulum ve Başlatma Süreci (Windows için)
 Aşağıdaki adımları takip ederek FaceFusion'u kolayca kurabilir ve kullanmaya başlayabilirsiniz.
 
