@@ -1,5 +1,8 @@
 # Face_Swap_FaceFusion
 
+### with
+https://github.com/facefusion/facefusion.git
+
 ## Komut istemcisi üzerinden job ID kullanarak:
 ![Image](https://github.com/user-attachments/assets/02c91744-864e-4252-8729-a5514305e3a5)
 ![Image](https://github.com/user-attachments/assets/9625a045-a5c8-4f57-8a34-a5fe113e05ee)
