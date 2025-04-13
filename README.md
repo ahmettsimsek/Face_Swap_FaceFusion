@@ -1,6 +1,6 @@
 # Face_Swap_FaceFusion
 
-![Image](https://github.com/user-attachments/assets/12aa45ee-a053-4145-b4cf-05f4b88a8888)
+
 
 🛠️ FaceFusion Kurulum ve Başlatma Süreci (Windows için)
 Aşağıdaki adımları takip ederek FaceFusion'u kolayca kurabilir ve kullanmaya başlayabilirsiniz.
@@ -77,3 +77,44 @@ Sorun yaşarsanız: --help parametresi ile komut listesini görüntüleyebilirsi
 ```
 python facefusion.py --help
 ```
+---------------------------------------------------------------------------------------------------------------------
+
+(****** result ismini ve job ismini değiştirmeyi unutma(örn: job2)) ve *** png veya jpg tür karıştırma
+
+
+---Yeni bir job ID kullanarak işlemi tekrar deneyelim (örneğin: job1):
+
+1. Yeni job oluştur
+```
+python facefusion.py job-create job1
+```
+
+2. Yeni step ekle
+```
+python facefusion.py job-add-step job1 --source inputs/source.png --target inputs/target.png --output-path outputs/result1.png  
+```
+3. Submit
+```
+python facefusion.py job-submit job1
+```
+4. Run
+```
+python facefusion.py job-run job1
+```
+------------------------------------------------------------------------------
+```
+python facefusion.py job-create job2
+```
+```
+python facefusion.py job-add-step job2 --source inputs/source.png --target inputs/target.png --output-path outputs/result2.png
+```
+```
+python facefusion.py job-submit job2
+```
+```
+python facefusion.py job-run job2
+```
+----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+![Image](https://github.com/user-attachments/assets/12aa45ee-a053-4145-b4cf-05f4b88a8888)
+
