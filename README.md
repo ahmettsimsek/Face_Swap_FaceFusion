@@ -20,23 +20,23 @@ Git (opsiyonel ama önerilir)
 ```python
 cd %USERPROFILE%\Desktop
 ```
-```
+```python
 git clone https://github.com/facefusion/facefusion.git
 ```
-```
+```python
 cd facefusion
 ```
 
 ### ✅ 3. Sanal Ortam Oluştur ve Aktifleştir
-```
+```python
 python -m venv venv
 ```
-```
+```python
 venv\Scripts\activate
 ```
 
 ### ✅ 4. Gerekli Kütüphaneleri Yükle
-```
+```python
 pip install -r requirements.txt
 ```
 
@@ -51,12 +51,12 @@ C:\ffmpeg\bin yolunu sistem PATH değişkenine ekleyin
 
 CMD'de test edin:
 
-```
+```python
 ffmpeg -version
 ```
 
 ### ✅ 6. FaceFusion’u Başlat
-```
+```python
 python facefusion.py run
 ```
 GUI arayüzü tarayıcınızda otomatik olarak açılacaktır:
@@ -77,7 +77,7 @@ Kurulum sonrası ilk kullanımda tüm modeller otomatik olarak indirilecektir.
 
 Sorun yaşarsanız: --help parametresi ile komut listesini görüntüleyebilirsiniz.
 
-```
+```python
 python facefusion.py --help
 ```
 ---------------------------------------------------------------------------------------------------------------------
@@ -88,35 +88,35 @@ python facefusion.py --help
 ---Yeni bir job ID kullanarak işlemi tekrar deneyelim (örneğin: job1):
 
 1. Yeni job oluştur
-```
+```python
 python facefusion.py job-create job1
 ```
 
 2. Yeni step ekle
-```
+```python
 python facefusion.py job-add-step job1 --source inputs/source.png --target inputs/target.png --output-path outputs/result1.png  
 ```
 3. Submit
-```
+```python
 python facefusion.py job-submit job1
 ```
 4. Run
-```
+```python
 python facefusion.py job-run job1
 ```
 ------------------------------------------------------------------------------
 ![Image](https://github.com/user-attachments/assets/99cf3da7-3e92-45ee-b87d-17f59441d703)
 ------------------------------------------------------------------------------
-```
+```python
 python facefusion.py job-create job2
 ```
-```
+```python
 python facefusion.py job-add-step job2 --source inputs/source.png --target inputs/target.png --output-path outputs/result2.png
 ```
-```
+```python
 python facefusion.py job-submit job2
 ```
-```
+```python
 python facefusion.py job-run job2
 ```
 ----------------------------------------------------------------------------------------------------------------------
