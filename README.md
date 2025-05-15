@@ -136,8 +136,17 @@ python facefusion.py job-run job2
 ```python
 python run_custom.py
 ```
+## ✅✅✅✅✅ Job Id otomatikleştirilmesi için yazılan "run_custom.py" çalıştırılması sonucu:✅✅✅✅✅
 
+### Örnek Dosya Yapısı
 
+![Image](https://github.com/user-attachments/assets/8bfcd929-295c-4822-b9d3-01cc05021b7e)
+
+### Örnek Terminal Çıktıları
+
+![Image](https://github.com/user-attachments/assets/7ac21323-3663-4da4-99ba-7d5dea6c572d)
+
+![Image](https://github.com/user-attachments/assets/a42eb190-9908-4e52-b204-361bd28d0c34)
 
 
 
