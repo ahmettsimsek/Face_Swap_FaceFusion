@@ -130,4 +130,16 @@ python facefusion.py job-submit job2
 ```python
 python facefusion.py job-run job2
 ```
+-----------------------------------------------------------------
+## ✅✅✅✅✅ Direk terminal ekranı ile Komut istemcisi üzerinden job ID'i otomatik olarak kullanarak:✅✅✅✅✅
+
+```python
+python run_custom.py
+```
+
+
+
+
+
+
 
